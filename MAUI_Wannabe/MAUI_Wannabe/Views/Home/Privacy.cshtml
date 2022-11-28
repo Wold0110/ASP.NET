@@ -1,0 +1,31 @@
+﻿@model Player
+
+@{
+    ViewData["Title"] = "Privacy Policy";
+}
+<h1>@ViewData["Title"]</h1>
+
+<p>Use this page to detail your site's privacy policy.</p>
+
+@using(Html.BeginForm("AddPlayer","Home",FormMethod.Post)){
+    @Html.TextBoxFor(e => e.username)
+    @Html.TextBoxFor(e => e.email)
+    @Html.PasswordFor(e => e.password)
+    <input type="submit" value="Regisztráció">
+
+}
+<br />
+<br />
+@using (Html.BeginForm("DelPlayer", "Home", FormMethod.Post))
+{
+    @Html.TextBoxFor(e => e.email)
+    @Html.PasswordFor(e => e.password)
+    <input type="submit" value="Törlés">
+}
+
+@using (Html.BeginForm("NewPW", "Home", FormMethod.Post))
+{
+    @Html.TextBoxFor(e => e.email)
+    @Html.PasswordFor(e => e.password)
+    <input type="submit" value="Új jelszó">
+}

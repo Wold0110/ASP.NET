@@ -1,0 +1,37 @@
+﻿@model Dictionary<string,int>
+@{
+    foreach(var x in Model)
+    {
+        @x.Key
+        @x.Value
+        <br />
+    }
+}
+
+<div id="piechart_3d" style="width: 900px; height: 500px;"></div>
+
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script type="text/javascript">
+    google.charts.load("current", {packages:["corechart"]});
+    google.charts.setOnLoadCallback(drawChart);
+    function drawChart() {
+      var data = google.visualization.arrayToDataTable([
+        @{
+            @Html.Raw($"['Személy','Költségek'],");
+            foreach(var x in Model)
+            {
+                @Html.Raw($"['{x.Key}','{x.Value}'],");       
+            }
+        }
+      ]);
+
+      var options = {
+        title: 'Költekezések',
+        is3D: true,
+      };
+
+      var chart = new google.visualization.PieChart(document.getElementById('piechart_3d'));
+      chart.draw(data, options);
+    }
+</script>
+

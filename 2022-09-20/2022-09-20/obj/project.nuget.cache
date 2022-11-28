@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "aie4OTL5Uj4OwklFp2UXKOeaB5rF+BOnHe+nlXUWxYUvuVzj63MC+pLWQR3IzTqh79hK4tnhDJBTo0EpiJa+xg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\SESA646228\\Documents\\#~Git\\Technical-Order\\2022-09-20\\2022-09-20\\2022-09-20.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\SESA646228\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.17.0\\microsoft.visualstudio.azure.containers.tools.targets.1.17.0.nupkg.sha512"
+  ],
+  "logs": []
+}

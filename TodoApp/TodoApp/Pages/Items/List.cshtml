@@ -1,0 +1,29 @@
+﻿@page "/items/list"
+@using TodoApp.Model;
+@model TodoApp.Pages.Items.ListModel
+<table>
+    <thead>
+        <tr>
+            <th>
+                ID
+            </th>
+            <th>
+                Title
+            </th>
+            <th>
+                Desc
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+    @{
+        foreach(TodoItem x in TodoItem.list){
+            <tr>
+                <td>@x.id</td>
+                <td>@x.title</td>
+                <td>@x.desc</td>
+            </tr>
+        }
+    }
+    </tbody>
+</table>

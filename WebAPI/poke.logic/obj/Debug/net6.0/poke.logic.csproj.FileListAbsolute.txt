@@ -1,0 +1,16 @@
+C:\Users\SESA646228\source\repos\WebAPI\poke.logic\bin\Debug\net6.0\data\pokedex.csv
+C:\Users\SESA646228\source\repos\WebAPI\poke.logic\bin\Debug\net6.0\poke.logic.deps.json
+C:\Users\SESA646228\source\repos\WebAPI\poke.logic\bin\Debug\net6.0\poke.logic.dll
+C:\Users\SESA646228\source\repos\WebAPI\poke.logic\bin\Debug\net6.0\poke.logic.pdb
+C:\Users\SESA646228\source\repos\WebAPI\poke.logic\bin\Debug\net6.0\poke.data.dll
+C:\Users\SESA646228\source\repos\WebAPI\poke.logic\bin\Debug\net6.0\poke.data.pdb
+C:\Users\SESA646228\source\repos\WebAPI\poke.logic\obj\Debug\net6.0\poke.logic.csproj.AssemblyReference.cache
+C:\Users\SESA646228\source\repos\WebAPI\poke.logic\obj\Debug\net6.0\poke.logic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SESA646228\source\repos\WebAPI\poke.logic\obj\Debug\net6.0\poke.logic.AssemblyInfoInputs.cache
+C:\Users\SESA646228\source\repos\WebAPI\poke.logic\obj\Debug\net6.0\poke.logic.AssemblyInfo.cs
+C:\Users\SESA646228\source\repos\WebAPI\poke.logic\obj\Debug\net6.0\poke.logic.csproj.CoreCompileInputs.cache
+C:\Users\SESA646228\source\repos\WebAPI\poke.logic\obj\Debug\net6.0\poke.logic.csproj.CopyComplete
+C:\Users\SESA646228\source\repos\WebAPI\poke.logic\obj\Debug\net6.0\poke.logic.dll
+C:\Users\SESA646228\source\repos\WebAPI\poke.logic\obj\Debug\net6.0\refint\poke.logic.dll
+C:\Users\SESA646228\source\repos\WebAPI\poke.logic\obj\Debug\net6.0\poke.logic.pdb
+C:\Users\SESA646228\source\repos\WebAPI\poke.logic\obj\Debug\net6.0\ref\poke.logic.dll

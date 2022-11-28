@@ -1,0 +1,50 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+
+    void greet(){
+    <h2>Hi</h2>
+    }
+
+    
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <div>
+        Jelenlegi idő: @DateTime.Now.ToString("yyyy-MM-dd hh:mm:ss")
+        @{
+            greet();
+        }
+        <table class="table table-bordered"><tbody>
+        @for(int i =1; i <11;++i){
+            <tr>
+            @for(int j = 1; j < 11;++j){
+                if (j == 1 || i == 1)
+                {
+                    <th>@(i * j)</th>
+                }
+                else
+                {
+                    <td>@(i * j)</td>
+                }
+            }     
+            </tr>
+        }
+        </tbody></table>
+
+        <table class="table table-bordered"><tbody>
+        @{
+            <tr><th>Name</th><th>Age</th></tr>
+            List<Person> ppl = Person.TestPeople();
+            foreach(Person p in ppl){
+                <tr><td>@p.name</td><td>@p.age</td></tr>
+            }
+            
+        }
+        </tbody></table>
+
+    </div>
+</div>

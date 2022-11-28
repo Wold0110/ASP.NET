@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "xHKSgRTAjXmf0FR12qbQ5hGFXIzgvOW+iybiLe+jNs0OfBaldgRBVYowfXjkBFzWGgFIQkbye83CB+kr7nNHQg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\SESA646228\\source\\repos\\TodoApp\\TodoApp\\TodoApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\SESA646228\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.17.0\\microsoft.visualstudio.azure.containers.tools.targets.1.17.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "poke.logic/1.0.0": {
+        "dependencies": {
+          "poke.data": "1.0.0"
+        },
+        "runtime": {
+          "poke.logic.dll": {}
+        }
+      },
+      "poke.data/1.0.0": {
+        "runtime": {
+          "poke.data.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "poke.logic/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "poke.data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

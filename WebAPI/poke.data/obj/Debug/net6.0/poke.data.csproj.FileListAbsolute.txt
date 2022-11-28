@@ -1,0 +1,13 @@
+C:\Users\SESA646228\source\repos\WebAPI\poke.data\bin\Debug\net6.0\data\pokedex.csv
+C:\Users\SESA646228\source\repos\WebAPI\poke.data\bin\Debug\net6.0\poke.data.deps.json
+C:\Users\SESA646228\source\repos\WebAPI\poke.data\bin\Debug\net6.0\poke.data.dll
+C:\Users\SESA646228\source\repos\WebAPI\poke.data\bin\Debug\net6.0\poke.data.pdb
+C:\Users\SESA646228\source\repos\WebAPI\poke.data\obj\Debug\net6.0\poke.data.csproj.AssemblyReference.cache
+C:\Users\SESA646228\source\repos\WebAPI\poke.data\obj\Debug\net6.0\poke.data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SESA646228\source\repos\WebAPI\poke.data\obj\Debug\net6.0\poke.data.AssemblyInfoInputs.cache
+C:\Users\SESA646228\source\repos\WebAPI\poke.data\obj\Debug\net6.0\poke.data.AssemblyInfo.cs
+C:\Users\SESA646228\source\repos\WebAPI\poke.data\obj\Debug\net6.0\poke.data.csproj.CoreCompileInputs.cache
+C:\Users\SESA646228\source\repos\WebAPI\poke.data\obj\Debug\net6.0\poke.data.dll
+C:\Users\SESA646228\source\repos\WebAPI\poke.data\obj\Debug\net6.0\refint\poke.data.dll
+C:\Users\SESA646228\source\repos\WebAPI\poke.data\obj\Debug\net6.0\poke.data.pdb
+C:\Users\SESA646228\source\repos\WebAPI\poke.data\obj\Debug\net6.0\ref\poke.data.dll

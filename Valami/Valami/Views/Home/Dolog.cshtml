@@ -1,0 +1,29 @@
+﻿@model HomeModel
+
+@Model.Nevek
+<br />
+
+Itt lesz valami dolog.
+<br />
+Viewbag adataim:
+@ViewBag.Adat1
+<br />
+@ViewBag.Adat2
+
+
+<br />
+Viewdata:
+@ViewData["Adat3"]
+<br />
+@ViewData["Adat4"]
+
+<form method="post" action="dolog2">
+    <input type="text" name="user" />
+    <input type="submit" value="mehet" />
+</form>
+
+
+<form method="get" action="dolog3">
+    <input type="text" name="user" />
+    <input type="submit" value="mehet" />
+</form>

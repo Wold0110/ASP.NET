@@ -1,0 +1,18 @@
+﻿Add meg az új költés adatait:
+
+
+<form asp-controller="UjKoltes" asp-action="Feltoltes" method="post">
+    Kategória:
+    <select name="kategoriak" id="kategoriak">
+    @{
+        foreach(var x in Model.KatNevek)
+        {
+            <option value="@x">@x</option>
+        }
+    }
+    </select><br />
+
+    <input type="text" name="ki" /><br />
+    <input type="number" name="osszeg" /><br />
+    <input type="submit" value="Küldés"/>
+</form>

@@ -1,0 +1,8 @@
+﻿@page "/items/add"
+@model TodoApp.Pages.Items.AddModel
+
+<form method="POST">
+    <input asp-for="FormInput.title" />
+    <input asp-for="FormInput.desc" />
+    <input type="submit"/>
+</form>

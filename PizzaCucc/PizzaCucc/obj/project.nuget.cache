@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "MTzhJ2WDHBoxjAU3nZadTdP90IoLBaw35sTObszeK7D764EvOSCkEcF6S63gdKnBcyPfFmTk2zbS3rT0TGJ4sQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\SESA646228\\source\\repos\\PizzaCucc\\PizzaCucc\\PizzaCucc.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\SESA646228\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.17.0\\microsoft.visualstudio.azure.containers.tools.targets.1.17.0.nupkg.sha512"
+  ],
+  "logs": []
+}

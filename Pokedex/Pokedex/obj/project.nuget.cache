@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "N9Gqf30MJYdWu1lTFxKM+n9hOAk1LQfLm0MVKG+Rx8PBTDxuuiYcBNaT+4o/E7JPKe3MPdfSQmeqb838leq7sA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\SESA646228\\source\\repos\\Pokedex\\Pokedex\\Pokedex.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\SESA646228\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.17.0\\microsoft.visualstudio.azure.containers.tools.targets.1.17.0.nupkg.sha512"
+  ],
+  "logs": []
+}

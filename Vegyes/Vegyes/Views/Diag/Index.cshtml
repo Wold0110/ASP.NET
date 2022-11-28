@@ -1,0 +1,15 @@
+﻿@model KategoriaModel
+
+Válassz kategóriát!
+<form asp-controller="Diag" asp-action="Kirajzol" method="post">
+    <select name="kategoriak" id="kategoriak">
+        @{
+            foreach(var x in Model.KatNevek)
+            {
+                <option value="@x">@x</option>
+            }
+        }
+    </select>
+        
+    <input type="submit" value="Rajzol" />
+</form>
